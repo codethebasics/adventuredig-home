@@ -1,0 +1,58 @@
+html,
+body {
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+}
+
+#header img {
+  max-width: 100%;
+}
+
+#banner {
+  width: 100%;
+  max-height: 100vh;
+  position: fixed;
+}
+
+#banner img {
+  max-width: 100%;
+}
+
+#pixelButton {
+  position: absolute;
+  top: 80vh;
+  left: calc(52vw - 250px);
+  padding: 25px 50px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  text-align: center;
+  background: linear-gradient(117.25deg, #FFF240 -1.08%, #F7AB00 95.28%);
+  font-size: 3em;
+  border: 5px solid #222;
+  color: #222;
+  text-transform: uppercase;
+  font-family: anton;
+  opacity: .9;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+#pixelButton:hover {
+    opacity: 1;
+  }
+
+@font-face {
+    font-family: anton;
+    src: url('./font/Anton-Regular.ttf');
+}
